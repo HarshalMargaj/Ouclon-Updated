@@ -81,16 +81,18 @@
 
 	div #section-3 .tabs {
 		justify-content: center;
+		gap: 0;
 	}
 
 	div #section-3 .tabs .list a {
-		font-size: 8px;
+		font-size: 11px;
 		width: 80px;
 		transition: none;
 		padding: 5px;
 	}
 
 	div #section-3 .tabs .list a img {
+		display: none;
 		height: 12px;
 		width: 12px;
 	}
