@@ -1,0 +1,80 @@
+#section-5 {
+	padding: 60px 160px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+#section-5 .sec-heading div p {
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.tiles {
+	display: grid;
+	grid-template-areas:
+		"tile1 tile1 tile1 tile2 tile2"
+		"tile3 tile3 tile4 tile4 tile4"
+		"tile5 tile5 tile5 tile5 tile5";
+	grid-gap: 10px;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto auto auto;
+	gap: 30px;
+}
+
+.tile {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #221d38;
+	position: relative;
+	border-radius: 10px;
+	height: 180px;
+	padding: 30px;
+}
+
+.tile::before {
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: linear-gradient(to right, white, transparent, white);
+	margin: -1px;
+}
+
+.tile .tile-heading {
+	font-size: 28px;
+	font-weight: 600;
+	color: white;
+}
+
+.tile .tile-content {
+	font-size: 18px;
+	line-height: 28px;
+	color: #e5e7ebd0;
+}
+
+.tile1 {
+	grid-area: tile1;
+}
+
+.tile2 {
+	grid-area: tile2;
+}
+
+.tile3 {
+	grid-area: tile3;
+}
+
+.tile4 {
+	grid-area: tile4;
+}
+
+.tile5 {
+	height: 140px;
+	grid-area: tile5;
+}

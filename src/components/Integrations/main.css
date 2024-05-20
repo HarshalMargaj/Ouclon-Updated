@@ -1,0 +1,26 @@
+#integration-section {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-top: 60px;
+}
+
+#integration-section .integration-heading {
+	font-size: 40px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#integration-section .integration-subheading {
+	font-size: 18px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.integrations {
+	width: 100vw;
+	margin-top: 80px;
+}

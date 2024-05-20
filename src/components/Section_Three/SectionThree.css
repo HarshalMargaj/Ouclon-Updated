@@ -1,0 +1,22 @@
+#section-3 {
+	padding: 60px 160px;
+}
+
+#section-3 span {
+	text-transform: uppercase;
+	color: white;
+}
+
+#section-3 .sec-3-heading p {
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+}
+
+#section-3 .sec-3-heading {
+	text-align: center;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

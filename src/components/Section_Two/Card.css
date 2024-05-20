@@ -1,0 +1,28 @@
+.num-card {
+	display: flex;
+	width: 340px;
+	align-items: center;
+	gap: 20px;
+	padding: 21px;
+	border-radius: 10px;
+	border: 1px solid rgba(170, 125, 252, 0.25);
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.num-card .first {
+	font-size: 48px;
+	color: white;
+}
+
+.num-card .mid {
+	height: 50px;
+	background: #556aeb;
+	width: 3px;
+}
+
+.num-card .second {
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	color: #ece6fec7;
+}

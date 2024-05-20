@@ -1,0 +1,24 @@
+#section-7 {
+	padding: 60px 160px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+#section-7 span {
+	text-transform: uppercase;
+	color: white;
+}
+
+#section-7 .sec-7-heading p {
+	font-size: 40px;
+	font-weight: 600;
+	color: white;
+}
+
+#section-7 .sec-7-heading {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}

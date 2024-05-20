@@ -1,0 +1,81 @@
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+	margin: auto;
+	border-bottom: none;
+	padding: 5px 0;
+	border-radius: 10px;
+	gap: 20px;
+}
+
+.tabs li {
+	margin: 0 10px;
+}
+
+.tabs a {
+	display: block;
+	padding: 10px 20px;
+	text-align: center;
+	color: #d1d5db;
+	text-decoration: none;
+	border-bottom: none;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.tabs a.active {
+	border-bottom: 2px solid white;
+	color: #ffffff;
+}
+
+.tab-content {
+	padding: 20px;
+	border: none;
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.drawer .cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+	color: white;
+}
+
+.drawer .card {
+	width: 350px;
+	height: 400px;
+	background: rgba(249, 250, 251, 0.1);
+	border-radius: 10px;
+}
+
+.drawer .card .card-img {
+	height: 205px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(249, 250, 251, 0.1);
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid white;
+}
+
+.drawer .card .card-content {
+	padding: 24px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.drawer .card .card-content h3 {
+	font-size: 18px;
+}
+
+.drawer .card .card-content p {
+	font-size: 16px;
+	line-height: 28px;
+}

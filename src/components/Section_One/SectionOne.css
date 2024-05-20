@@ -1,0 +1,97 @@
+#section-1 {
+	height: 100vh;
+	padding: 0 160px;
+}
+
+.headline {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	color: white;
+	flex-direction: column;
+	padding: 400px 80px;
+	height: 70vh;
+	justify-content: center;
+	gap: 24px;
+}
+
+.headline h1 {
+	font-size: 72px;
+	background: linear-gradient(90deg, #f8f9fa 0%, #939394 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: 1000ms ease 0s 1 normal backwards running kVRLZT;
+}
+
+.headline p {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.headline .cta {
+	display: flex;
+	gap: 10px;
+}
+
+.headline .cta button {
+	height: 48px;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: #3b316b;
+	position: relative;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	border: none;
+}
+
+.headline .cta button::after {
+	content: "";
+	border-radius: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background: linear-gradient(120deg, white, transparent, white);
+	margin: -1px;
+}
+
+.headline .cta .input-wrapper {
+	position: relative;
+	border-radius: 10px;
+	padding: 1px;
+	background: linear-gradient(to right, white, transparent, white);
+}
+
+.headline .cta .input-wrapper input {
+	height: 48px;
+	width: 674px;
+	font-size: 16px;
+	color: white;
+	padding: 12px;
+	border: none;
+	background: #271c5c;
+	outline: none;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.headline .cta input::placeholder {
+	color: rgba(255, 255, 255, 0.803);
+}
+
+/* Keyframes */
+@keyframes kVRLZT {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}

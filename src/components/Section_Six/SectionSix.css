@@ -1,0 +1,13 @@
+#slider-section {
+	padding: 80px 160px;
+}
+
+#slider-section .slider {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.sec-heading h2 {
+	font-size: 40px;
+}

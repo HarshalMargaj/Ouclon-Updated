@@ -1,0 +1,11 @@
+#section-4 {
+	padding: 60px 160px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+#section-4 .sec-heading div p {
+	font-size: 18px;
+	margin-top: 10px;
+}
